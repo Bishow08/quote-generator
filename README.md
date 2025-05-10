@@ -17,7 +17,9 @@ A simple, responsive web app that displays inspirational quotes from two categor
 # 💡 Technologies Used
 
 HTML5
+
 CSS3
+
 Vanilla JavaScript (ES6+)
 
 # 🚀 How to Run
