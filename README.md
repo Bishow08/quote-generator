@@ -4,21 +4,21 @@ A simple, responsive web app that displays inspirational quotes from two categor
 
 # ✨ Features
 
-    🔁 Browse quotes using Next and Previous button
+🔁 Browse quotes using Next and Previous buttons
 
-    🎲 Display a Random quote
+🎲 Display a Random quote
 
-    🧠 Filter quotes by category: Science or Philosophy
+🧠 Filter quotes by category: Science or Philosophy
 
-    🔠 Increase/Decrease font size of the quote text
-    
-    🌙 Toggle Dark Mode
+🔠 Increase/Decrease font size of the quote text
+
+🌙 Toggle Dark Mode
 
 # 💡 Technologies Used
 
-    HTML5
-    CSS3
-    Vanilla JavaScript (ES6+)
+HTML5
+CSS3
+Vanilla JavaScript (ES6+)
 
 # 🚀 How to Run
 
