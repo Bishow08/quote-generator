@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222222;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mode-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Toggle Switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 22px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 22px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #0077cc;
+}
+
+input:checked + .slider::before {
+  transform: translateX(18px);
+}
+
+.category-selector {
+  margin: 20px 0;
+}
+
+.category-selector label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.category-selector select {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.quote-box {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  min-height: 100px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.controls button,
+.font-controls button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.font-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .quote-box {
+    font-size: 1rem;
+  }
+
+  .controls button,
+  .font-controls button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+}
