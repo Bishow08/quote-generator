@@ -133,3 +133,28 @@ input:checked + .slider::before {
     padding: 8px 12px;
   }
 }
+
+/* Dark mode css */
+body.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark .quote-box {
+  background-color: #444;
+  color: #fff;
+}
+
+body.dark .controls button, body.dark .font-controls button {
+  background-color: #555;
+  color: #fff;
+}
+
+body.dark .mode-toggle label {
+  background-color: #555;
+}
+
+body.dark .mode-toggle span {
+  color: #fff;
+}
+
